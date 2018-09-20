@@ -1,9 +1,11 @@
 
 
-def reverse_each_word string
-array.new = string.split (",")
-  array.each do |word|
-     word.reverse
-    array.join(" ")
-end
+
+
+def reverse_each_word phrase
+  arrayPhrase = phrase.split(' ')
+
+  reversedPhrase = arrayPhrase.collect {|word| word.reverse}
+
+  reversedPhrase.join(' ')
 end
