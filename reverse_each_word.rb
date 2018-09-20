@@ -1,7 +1,9 @@
 welcome = "Hello there, and how are you?"
-def reverse_each_word welcome
-  welcome.split (",")
-  welcome.each do |word|
-    puts " welcome.reverse"
+array.new = welcome.split (",")
+def reverse_each_word array
+  
+  array.each do |word|
+    array.reverse
+    array.split
 end  
 end
